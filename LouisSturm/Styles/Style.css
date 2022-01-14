@@ -1,0 +1,222 @@
+/* https://www.cssfontstack.com/Web-Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Baumans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Playball);
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+
+footer {
+	font-family: Playball;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+/* Grundlayout für SELFHTML-Beispiele */
+
+html {
+  background: white;
+  color: black;	
+  font-family: Audiowide;
+}
+
+body {
+  margin: 10px auto;
+  max-width: 65em;
+}
+
+h1, main, aside, main svg {
+  padding: 1em;
+  margin: 1em;
+}
+
+header {
+  border-color: transparent;
+}
+
+
+
+/* blauer Balken für Überschrift, News und Footer */
+h1, #news, footer {
+  margin: 1em 0 0;
+  padding: 0.5em 2em;
+  background: skyblue;
+  color: white;
+  border-radius: 0 1em 0 1em;
+}
+
+h1 { /*oberer Rand muss höher sein, um Platz für Logo und Navigation zu haben */
+  margin: 1em 0 0;
+}
+
+
+
+
+
+
+
+/* Buttons für Style-Switcher */
+
+#navigation  li {
+  list-style-type: none;
+  display:inline-block;
+}
+
+#navigation button {
+ background: transparent;
+ border: 1px solid transparent;
+ color: darkblue;
+}
+
+#navigation button:hover, #navigation button:focus{
+ background: darkblue;
+ border: 1px solid darkblue;
+ color: white;
+}
+
+nav a {
+  background: white;
+  color: darkblue;
+  border: 2px solid transprent;
+}
+nav a:hover, nav a:focus {
+  background-color: darkblue;
+  color: white;
+  border: 2px solid darkblue;
+}
+
+nav a[aria-current=page] {
+	border: 2px solid;
+}
+
+a {
+  color: darkblue;
+}
+
+
+
+/* Mobile first - alle Dokument-Blöcke bekommen 100% Breite */
+header, nav, nav a, article, section, aside, footer {
+  padding: 1em;
+  margin: 1em;
+}
+
+nav, nav ul, nav li {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+nav li {
+  list-style-type: none;
+  margin: 1.3em 0;
+}
+nav a {
+  display: inline-block;
+  border-color: transparent;	  
+  width: 95%;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+footer {
+  margin: 1em 0;
+  padding: 0 1em;  
+}
+
+
+/* Smart Phones und Tablets mit mittlerer Auflösung */
+@media all and (min-width: 35em) {
+header {
+  margin: 1em 0;
+  padding: 1em 0;
+}
+
+h1 {
+  height: 1em;
+  margin: 5em 0 0;
+  padding: 0.5em 2em;
+  background: skyblue;
+  color: white;
+}
+
+
+	
+nav ul {
+  width: 80%;
+  margin: -10em 0 0 20%;
+}
+nav li {
+  margin: 0 1em;
+  width: 10em;
+}
+
+}
+
+
+th,td {
+	border: 2px solid lightblue;
+}
+table {
+	border-collapse: collapse;
+	margin: 5px;
+}
+
+.pic {
+		float: right;
+		width: 400px;
+		margin: 2px;
+		}
+		
+.pic2{
+	width: 10%;
+	height: 80px;
+	overflow-x: auto;
+	}
+#Text {
+	Text-align: left;
+	}
+	
+.charaktere {
+		width: 20%;
+	}
+#pic3 {
+		float: right;
+		width: 390px;
+		margin: 2em;
+	}
+	
+	
+#Text1 	{
+	clear: both;
+}
+
+.Pyro {
+	color:red;
+}
+
+.Kryo {
+	color: lightblue;
+}
+
+.Electro {
+	color: purple;
+}
+
+.Geo {
+	color: green;
+}
+
+.Hydro {
+	color: blue;
+}
+
+#Quelle1 {
+	float: right;
+}

@@ -1,0 +1,13 @@
+.TopWebseitenWechsler{
+	width: 95%;
+	margin-right: auto;
+	margin-left:auto;
+	display: flex;
+	background-color: rgb(255 255 255 / 30%);
+}
+.TopWebseitenWechsler .middle{
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}

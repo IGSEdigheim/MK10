@@ -1,0 +1,133 @@
+/* https://www.cssfontstack.com/Web-Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Baumans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Playball);
+@import url(https://fonts.googleapis.com/css?family=Petrona);
+
+footer {
+	font-family:Playball;
+}
+
+
+
+
+html {
+	background:white;
+	color: #222;	
+    /* font: normal 1em Arial, sans-serif;  /* Mindestschriftgröße wird dem Browser, bzw. dem Nutzer überlassen! */
+	font-family: Petrona;
+  line-height: 1.5;
+}
+
+
+body > * {
+  padding: 1em;
+  margin: 1em 0;
+}
+
+article {
+	padding: 0em 10em;
+}
+
+/* header - Seitenkopf */
+
+header {
+  margin: 1;
+  padding: 0;
+}
+
+
+
+
+
+nav a {
+	display: block;	
+	background:rgb(221,223,243) ;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+
+nav a[aria-current=page] {
+  color:black;
+  font-weight:bold;
+}
+.pic {
+	width:35%;
+	float:left;
+	margin:30px; 
+}
+
+.page {
+	float:right;
+	
+}
+
+.face {
+	width:40%;
+}
+
+footer {
+	background: rgb(221,223,243);
+	color: white;
+  	margin: 4;
+}
+
+footer p:last-child {
+	text-align: right;
+}
+
+
+
+@media (min-width: 30em) { 
+	nav {
+		background:rgb(221,223,243)
+     ;
+	}
+	nav ul {
+		max-width: 40em;
+		margin: 0 auto;
+	}	
+	
+	nav a {
+		margin: 0;
+	}
+		
+
+@media (min-width: 40em) { 
+	body {
+  		 min-height: 100vh;
+         font-size:1.1em 
+	}
+		
+	#index img {
+		width: 33%;
+		float: right;
+		margin-left: 1em;
+	}
+}
+
+/* Terminkalender */
+
+table, th, td { 
+  width: 100%;
+  border: 0px solid; 
+  border-collapse: collapse; 
+}
+
+th, td {
+	padding: .5em;
+}
+
+th {
+	background: rgb(159,171,225);
+	border: 1px solid white;
+	color:white;
+}
+
+td {
+	border-bottom: 1px solid rgb(221,223,243);
+}

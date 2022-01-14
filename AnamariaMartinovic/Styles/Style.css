@@ -1,0 +1,194 @@
+/* https://www.cssfontstack.com/Web-Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Baumans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Playball);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+footer {
+	font-family: Playball;
+}
+html {
+ 
+  Font-family: Lora;
+}
+
+body {
+	margin: 1em auto;
+	max-width: 65em;
+	font-size: 20px;
+ 
+}
+
+article div {
+	clear: both;
+}
+
+h1 {
+	background:lightblue;
+	color: rgb(16, 105);
+	font-size: 2.5rem;
+}
+
+h3{ background:lightblue;
+	color: rgb(16, 94, 105);
+	}
+
+
+
+header {
+  border-color: lightblue;
+}
+
+
+article img {
+	width: 60%;
+	margin-left: 11em;
+}
+  
+ 
+  
+  .pic{
+	width: 50%;
+   float: right;
+   margin:20px;
+  }
+  
+  .holly{
+   width: 35%;
+   float: left ;
+   margin:20px;
+  }
+  
+  .li {
+   width: 50%;
+   float: right;
+   margin:20px;
+  }
+  .Cevapcici {
+	width: 50%;
+   float: right;
+   margin:20px;
+	  
+  }
+  .Dalmatien{
+	width: 50%;
+   float: right;
+   margin:20px;
+	  
+	 
+  }
+  
+.nationalpark{
+	 width: 35%;
+   float: left ;
+   margin:20px;
+}
+  .Arena{
+	width: 50%;
+   float: right;
+   margin:20px;
+	  
+  }
+  
+  .brijuni{ 
+	width: 35%;
+	float: left ;
+	margin:20px;
+	  
+  }
+  
+
+
+
+
+section {
+  border-color: transparent;
+}
+article {
+  border-color: transparent;
+}
+aside {
+  border-color: transparent;
+}
+footer {
+  border-color:lightblue;
+}
+
+#navigation button {
+  width: 9em;
+  margin-bottom: 0.2em;
+  border-color: lightblue
+}
+
+
+
+{
+  border: 1px solid ; 
+  border-color: #5d5050;
+  border-left-color:#BC8F8F;
+  color:  #BC8F8F;
+}
+
+nav li:first-child  a{ border-radius: 1em 1em 1em 1em; }
+nav li:last-child  a{ border-radius: 1em 1em 1em 1em; }
+
+nav a:hover, nav a:focus, #navigation  button:hover, #navigation  button:focus {
+  background: lightblue;
+  border-color: lightblue;
+  color: lightblue;
+}
+
+nav a[aria-current=page] {
+	color:lightblue;
+	font-weight:bold;
+}
+nav a[aria-current=page]:hover,nav a[aria-current=page]:focus {
+	color:lightblue;
+
+}
+
+a {
+  color: black;
+}
+
+ 
+
+
+
+nav li {
+  list-style-type: none;
+  margin: 1.3em 0;
+  padding:0;
+}
+nav a {
+  display: inline-block;
+  margin: 0;
+  width: 96%;
+  padding: 0.5em 2%;
+  text-decoration: none;
+  text-align: center;
+}
+
+table, th, td { 
+	width: 100%;
+  	border: 1px solid; 
+  	border-collapse: collapse; 
+  	color:black;
+}
+
+th, td {
+	padding: .5em;
+  color:black
+}
+
+th {
+	background:lightblue;
+	color: black;
+}
+
+caption {
+	caption-side: bottom;
+	padding-top: 2em;
+	font-style: italic;
+}

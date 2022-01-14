@@ -1,0 +1,139 @@
+/* https://www.cssfontstack.com/Web-Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Baumans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Playball);
+
+footer {
+	font-family: Playball;
+}
+
+
+@charset "utf-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Baumans);
+
+/* Theme Grünes Grid  */
+
+html {
+  background:#EE7600 ;
+  color:#8B0000;
+ 		font-family:Arial Black;
+}
+
+body {
+  margin: 1em auto;
+  max-width: 65em;
+}
+
+h1, main, aside, main svg {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* header - Seitenkopf */
+
+
+
+
+h1, h2 {
+	font-family: 'Baumans', cursive;
+	font-size: 3em; 
+	text-shadow: 0 2px white;
+}
+
+  
+nav a {
+  background: #8B0000;
+  color:#EE7600;
+  padding: .5em;
+  border-radius: 0.5em / 1em;
+  border: 1px solid;  
+}
+
+nav a:hover, nav a:focus {
+  background: hsl(80, 60%, 90%);
+  color: #EE7600;
+}
+
+
+}
+
+
+}
+
+/* Buttons für Style-Switcher */
+
+/* Listenelemente werden je nach Position selektiert */
+article li:nth-child(1) { color:darkgreen; font-style:italic;}
+article li:nth-child(2) { color: #3983ab;}
+article li:nth-child(3) { color: #c32e04; font-style:italic;} 
+
+
+ 
+
+header img {
+  margin-right: 40px;
+}
+
+nav li {
+  margin: 1.3em 0;
+}
+nav a {
+  display:inline-block;
+  width: 95%;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+}
+nav a:hover {
+}
+
+nav a[aria-current=page] {
+	background:#8B0000;
+	font-weight:bold;
+}
+
+footer {
+  border-color: #8a9da8;
+}
+
+footer p {
+  text-align: right;
+}
+/* Smart Phones und Tablets mit mittlerer Auflösung */
+@media all and (min-width: 35em) {
+  header img {
+	margin-right: 50px;
+  }
+  nav li {
+    margin: 0 1em;
+  }
+}
+
+/* Large screens */
+@media all and (min-width: 50em) {
+  #index img {
+    width: 922222%;
+  } 
+}
+
+/* Terminkalender */
+
+table, th, td { 
+  width: 100%;
+  border: 1px solid #8B0000 ; 
+  border-collapse: collapse; 
+  color: #8B0000;
+}
+
+th, td {
+	padding: .5em;
+}
+
+th {
+	background:  #8B0000;
+	border: 1px solid  #EE7600;
+	color: #EE7600;
+}

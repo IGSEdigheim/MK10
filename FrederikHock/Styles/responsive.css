@@ -1,0 +1,81 @@
+/* responsives Layout */
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Mobile first - alle Dokument-Blöcke bekommen 100% Breite */
+header, nav, nav a, article, section, aside, footer {
+  flex: 1 100%;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+}
+header * {
+  flex: 1 1 0%;
+}
+header img {
+  flex: 0 0 150px;
+}
+header nav {
+  flex: 1 1 100%;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+}
+nav li {
+  list-style-type:none;
+  flex: 1 1 100%;
+}
+footer {
+  display: flex;
+  flex-flow: row wrap;
+}
+footer * {
+  flex: 1 1 0%;
+  justify-content: space-between;
+}
+
+/* Smart Phones und Tablets mit mittlerer Auflösung */
+@media all and (min-width: 35em) {
+nav ul {
+  flex-direction: row;
+}
+nav li {
+  flex: 1 1 0%;
+}
+article {
+  order: 2;
+}
+#news {
+  flex: 1 auto;
+  order: 3;
+}
+aside {
+/* durch auto werden die beiden asides in eine Zeile gesetzt */
+  flex: 1 auto;
+  order: 4;
+}
+footer {
+  order: 5;
+}
+}
+
+/* Large screens */
+@media all and (min-width: 50em) {
+  article {    /* Der Article wird 2.5x so breit wie die beiden asides! */
+    order: 3;
+    flex: 3 1 0%;
+  }
+  aside {
+    flex: 1 1 0%;
+  }
+  #news {
+    flex: 1 1 0%;	  
+    order: 2;
+  }
+}

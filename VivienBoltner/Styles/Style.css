@@ -1,0 +1,68 @@
+/* https://www.cssfontstack.com/Web-Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Baumans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Playball);
+
+footer {
+	font-family: Playball;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+/* flexibles Layout im klassischen 2-Spalten-Layout in mehreren Graustufen */
+
+html {
+  background: #8E5F55;
+  color: black;	
+  font-family:Garamond ;
+}
+
+body {
+  margin: 0.5em auto;
+  max-width: 65em;
+}
+
+
+
+h1 {
+  -webkit-text-decoration: underline dashed;	
+  text-decoration: underline;
+  text-decoration: underline dashed;
+}
+
+/* Mobile first - alle Dokument-Blöcke bekommen 100% Breite */
+header, nav, nav a, article, section, aside, footer {
+  border: 1px solid;
+  padding: 0.5em 1em;
+  margin: 0.5em 1em;
+}
+ body {
+  background: #EEDFDC;
+  border-color: #060606;
+}
+
+header * {
+  margin: 0 1em;
+}
+header img {
+  margin-right: 20px;
+}
+nav, nav ul, nav li{
+  margin: 0.2em 0.5em;
+  padding: 0 0.5em;
+  border: 0;
+}
+
+nav a, #navigation button {
+  display:inline-block;
+  width:95%;
+  background: #ccc;
+  border: 1px solid black;
+  color: black;
+  margin-bottom: 0.2em;
+  padding: 0.2em 1em;
+  text-decoration: none;
+  text-align: center;
+}

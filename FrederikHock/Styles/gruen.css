@@ -1,0 +1,218 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Baumans);
+
+/* Theme Grünes Grid  */
+
+html {
+  background: #ebf5d7;
+  color: #5a9900;	
+  font-family: Arial;
+}
+
+body {
+  margin: 1em auto;
+  max-width: 65em;
+}
+
+h1, main, aside, main svg {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* header - Seitenkopf */
+
+#logo {
+ display:inline-block;
+ text-shadow: none; color: transparent;
+ background:url(../img/logo-flower.svg);
+ width:100px;
+ height:50px;
+}
+
+h1, h2 {
+	font-family: 'Baumans', cursive;
+	font-size: 3em; 
+	text-shadow: 0 2px white;
+}
+
+h1::after {
+  content: "- lasst 100 Blumen blüh'n";
+}
+
+
+#index img {
+  border-radius: 0px 0.5em 0.5em;
+  border: 1px solid;
+  width: 90%;
+  transform: rotate(5deg);
+  margin-bottom: 1em;
+}
+
+figure {
+  display: inline-block;
+  width: 30%;
+  margin: 0.2em;
+}
+figure img {
+  width: 100%;
+  margin: 0;
+  padding: 0;  
+}
+figure figcaption {
+  font-style: italic;
+}
+
+nav a {
+  background: #5a9900;
+  color: white;
+  padding: .5em;
+  border-radius: 0.5em / 1em;
+  border: 1px solid;  
+}
+
+nav a:hover, nav a:focus {
+  background: hsl(80, 60%, 90%);
+  color: #5a9900;
+}
+
+#news {
+position: relative;
+color: #000;
+border-radius: 25% / 50%;
+background: #5a9900;
+background: linear-gradient(hsl(85,100%,40%), #5a9900);
+text-align: center;
+height: 14em;
+}
+
+#news::before {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: -4em;
+	right: 5em;
+	width: 0;
+	height: 0;
+	border-width: 0 0 4em 3em;
+	border-style: solid;
+	border-color: transparent #5a9900;
+}
+
+/* Buttons für Style-Switcher */
+#navigation h2 {
+   font-size: 2em; 
+}
+
+#navigation  ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#navigation button {
+  margin-bottom: 0.2em;
+  padding: 0.5em 1em;;
+  border-radius: 0.4em;
+  text-align: left; 
+}
+
+#navigation button:hover,
+#navigation button:focus  {opacity: 0.5;}
+
+#navigation li:nth-child(1) button{ background: #fffbf0; border-color: #e7c157; color:#dfac20;}
+#navigation li:nth-child(2) button{ background: black; color:white;}
+#navigation li:nth-child(3) button{ background: #f0d9a2; color: #5d0505;}
+#navigation li:nth-child(4) button{ background: purple; color: yellow;}
+#navigation li:nth-child(5) button{ background: skyblue; color: white;}
+#navigation li:nth-child(6) button{ background: white; color: darkblue;}
+#navigation li:nth-child(7) button{ background: #ebf5d7; color: darkgreen;}
+#navigation li:nth-child(8) button{ background: darkblue; color: gold;}
+#navigation li:nth-child(9) button{ background: black; color: #ccff15;}
+
+
+/* Listenelemente werden je nach Position selektiert */
+article li:nth-child(1) { color:darkgreen; font-style:italic;}
+article li:nth-child(2) { color: #3983ab;}
+article li:nth-child(3) { color: #c32e04; font-style:italic;} 
+
+
+#index img {
+    width: 70%;
+  transform: rotate(-2deg);
+  margin-bottom: 1em;
+}  
+
+header img {
+  margin-right: 20px;
+}
+nav, nav ul, nav li{
+  margin: 0;
+  padding:0;
+  border: 0;
+}
+nav li {
+  margin: 1.3em 0;
+}
+nav a {
+  display:inline-block;
+  width: 95%;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+}
+nav a:hover {
+}
+
+nav a[aria-current=page] {
+	background:hsl(85,100%,40%);
+	font-weight:bold;
+}
+
+footer {
+  border-color: #8a9da8;
+}
+
+footer p {
+  text-align: right;
+}
+/* Smart Phones und Tablets mit mittlerer Auflösung */
+@media all and (min-width: 35em) {
+  header img {
+	margin-right: 50px;
+  }
+  nav li {
+    margin: 0 1em;
+  }
+}
+
+/* Large screens */
+@media all and (min-width: 50em) {
+  #index img {
+    width: 90%;
+  } 
+}
+
+/* Terminkalender */
+
+table, th, td { 
+  width: 100%;
+  border: 1px solid; 
+  border-collapse: collapse; 
+  color: #5a9900;
+}
+
+th, td {
+	padding: .5em;
+}
+
+th {
+	background: #5a9900;
+	border: 1px solid #5a09900;
+	color: #ebf5d7;
+}
+
+caption {
+	font-style: italic;
+}
